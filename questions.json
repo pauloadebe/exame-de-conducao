@@ -2,7 +2,7 @@
   {
     "id": "1",
     "text": "Qual é o limite de velocidade em uma zona escolar?",
-    "image": "https://example.com/zona-escolar.png",
+    "image": "images/im10.jpg",
     "answers": [
       { "text": "30 km/h", "isCorrect": true },
       { "text": "50 km/h", "isCorrect": false },
