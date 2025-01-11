@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1",
+    "text": "Qual é o limite de velocidade em uma zona escolar?",
+    "image": "https://example.com/zona-escolar.png",
+    "answers": [
+      { "text": "30 km/h", "isCorrect": true },
+      { "text": "50 km/h", "isCorrect": false },
+      { "text": "60 km/h", "isCorrect": false },
+      { "text": "80 km/h", "isCorrect": false }
+    ]
+  },
+  {
+    "id": "2",
+    "text": "O que significa uma luz vermelha no semáforo?",
+    "image": null,
+    "answers": [
+      { "text": "Pare", "isCorrect": true },
+      { "text": "Avance com cuidado", "isCorrect": false },
+      { "text": "Dê preferência", "isCorrect": false },
+      { "text": "Prossiga com atenção", "isCorrect": false }
+    ]
+  }
+]
