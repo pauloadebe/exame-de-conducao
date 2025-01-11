@@ -2,7 +2,7 @@
   {
     "id": "1",
     "text": "Qual é o limite de velocidade em uma zona escolar?",
-    "image": "images/im1.jpg",
+    "image": "https://github.com/pauloadebe/exame-de-conducao/blob/main/images/im.png",
     "answers": [
       { "text": "30 km/h", "isCorrect": true },
       { "text": "50 km/h", "isCorrect": false },
@@ -13,7 +13,7 @@
   {
     "id": "2",
     "text": "O que significa uma luz vermelha no semáforo?",
-    "image": "images/im1.jpg",
+    "image": "https://github.com/pauloadebe/exame-de-conducao/blob/main/images/im.png",
     "answers": [
       { "text": "Pare", "isCorrect": true },
       { "text": "Avance com cuidado", "isCorrect": false },
