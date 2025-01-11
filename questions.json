@@ -13,7 +13,7 @@
   {
     "id": "2",
     "text": "O que significa uma luz vermelha no semáforo?",
-    "image": null,
+    "image": "https://github.com/pauloadebe/exame-de-conducao/blob/main/images/im10.jpg",
     "answers": [
       { "text": "Pare", "isCorrect": true },
       { "text": "Avance com cuidado", "isCorrect": false },
