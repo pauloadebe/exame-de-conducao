@@ -1,24 +1,262 @@
 [
-  {
-    "id": "1",
-    "text": "Qual é o limite de velocidade em uma zona escolar?",
-    "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im1.jpg",
-    "answers": [
-      { "text": "30 km/h", "isCorrect": true },
-      { "text": "50 km/h", "isCorrect": false },
-      { "text": "60 km/h", "isCorrect": false },
-      { "text": "80 km/h", "isCorrect": false }
-    ]
-  },
-  {
-    "id": "2",
-    "text": "O que significa uma luz vermelha no semáforo?",
-    "image": "https://github.com/pauloadebe/exame-de-conducao/blob/main/images/im.png",
-    "answers": [
-      { "text": "Pare", "isCorrect": true },
-      { "text": "Avance com cuidado", "isCorrect": false },
-      { "text": "Dê preferência", "isCorrect": false },
-      { "text": "Prossiga com atenção", "isCorrect": false }
-    ]
-  }
-]
+    {
+      "id": "1",
+      "text": "O sinal indica:",
+      "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im1.jpg",
+      "answers": [
+        { "text": "Existência de controlo de tráfego.", "isCorrect": false },
+        { "text": "Controlo policial pirilampos", "isCorrect": true },
+        { "text": "Congestionamento  do tráfego", "isCorrect": false }
+      ]
+    },
+    {
+        "id": "2",
+        "text": "Os automóveis classificam-se em:",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im2.jpg",
+        "answers": [
+          { "text": "Ligeiros e Pesados.", "isCorrect": true },
+          { "text": "Ligeiros, Pesados e Motociclos", "isCorrect": false },
+          { "text": "Motociclos, Ciclomotores, Triciclos, Quadriciclos, Ligeiros e Pesados", "isCorrect": false },
+          { "text": "Ligeiros, Pesados e Mistos", "isCorrect": false }
+        ]
+      },
+      {
+        "id": "3",
+        "text": "É aconselhável viajar a noite para evitar a fadiga?",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im3.jpg",
+        "answers": [
+          { "text": "Não, porque o sono aparece mais facilmente.", "isCorrect": true },
+          { "text": "Sim, se a viagem for longa.", "isCorrect": false },
+          { "text": "Sim, porque há menos, tráfego.", "isCorrect": false },
+          { "text": "Sim, viajar a noite é sempre mais seguro.", "isCorrect": false }
+        ]
+      },
+      {
+        "id": "4",
+        "text": "O que indica o sinal de informação?",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im4.jpg",
+        "answers": [
+          { "text": "Área reservada para automóveis ligeiros.", "isCorrect": true },
+          { "text": "Área reservada para táxis.", "isCorrect": false },
+          { "text": "Parque de estacionamento para automóveis ligeiros de passageiros.", "isCorrect": false }
+        ]
+      },
+    {
+      "id": "5",
+      "text": "Que veículo deve retroceder para dar passagem ao outro numa passagem estreita sem sinalização onde não seja possível efectuar o cruzamento?",
+      "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im5.jpg",
+      "answers": [
+        { "text": "O veículo mais pesado.", "isCorrect": false },
+        { "text": "O veículo com maior largura", "isCorrect": false },
+        { "text": "O veículo que está mais próximo do local em que o cruzamento seja possível.", "isCorrect": true },
+        { "text": "O veículo que desce se for numa via de inclinação acentuada .", "isCorrect": false }
+      ]
+    },
+    {
+        "id": "6",
+        "text": "Deve utilizar-se as luzes de perigo…",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im6.jpg",
+        "answers": [
+          { "text": "ao estacionar em segunda fila.", "isCorrect": false },
+          { "text": "para avisar os outros utentes que o veículo vai fazer marcha atrás.", "isCorrect": false },
+          { "text": "em caso de imobilização por acidente.", "isCorrect": true },
+          { "text": "apenas quando o veículo esteja a ser rebocado.", "isCorrect": false }
+        ]
+      },
+      {
+        "id": "7",
+        "text": "O que indica a marca rodoviária branca?",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im7.jpg",
+        "answers": [
+          { "text": "Indica a existência de bandas sonoras.", "isCorrect": false },
+          { "text": "Indica a redução de filas de trânsito.", "isCorrect": false },
+          { "text": "Indica a existência de lombas.", "isCorrect": true }
+        ]
+      },
+      {
+        "id": "8",
+        "text": "Atirar do veículo ou abandonar objectos ou substancias, constitui contravenção: ",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im8.jpg",
+        "answers": [
+          { "text": "Leve.", "isCorrect": false },
+          { "text": "Grave.", "isCorrect": false },
+          { "text": "Média.", "isCorrect": true }
+        ]
+      },
+      {
+        "id": "9",
+        "text": "Entende-se por visibilidade reduzida ou insuficiente, quando o condutor não possa avistar a faixa de rodagem em toda a sua largura numa extensão de: ",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im9.jpg",
+        "answers": [
+          { "text": "Pelo menos, 50 metros.", "isCorrect": true },
+          { "text": "Pelo menos, 200 metros.", "isCorrect": false },
+          { "text": "Pelo menos, 100 metros.", "isCorrect": false },
+          { "text": "Pelo menos, 25 metros.", "isCorrect": false }
+        ]
+      },
+      {
+        "id": "10",
+        "text": "O que indica o sinal? ",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im10.jpg",
+        "answers": [
+          { "text": "Sentido proibido.", "isCorrect": false },
+          { "text": "Transito proibido.", "isCorrect": true },
+          { "text": "Transito proibido a automóveis ligeiros de passageiros.", "isCorrect": false }
+        ]
+      },
+      {
+        "id": "11",
+        "text": "Uma das consequências de aumentar a velocidade, é que…",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im11.jpg",
+        "answers": [
+          { "text": "melhora o tempo de reação.", "isCorrect": false },
+          { "text": "aumenta a gravidade das lesões em caso de acidentes.", "isCorrect": true },
+          { "text": "reduz a distância de travagem.", "isCorrect": false },
+          { "text": "reduz as distrações.", "isCorrect": false }
+        ]
+      },
+      {
+        "id": "12",
+        "text": "O transito de veículos ou de animais é feito…",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im12.jpg",
+        "answers": [
+          { "text": "do lado direito das faixas de rodagem e o mais próximo possível das bermas ou passeios.", "isCorrect": false },
+          { "text": "próximo do eixo da via.", "isCorrect": false },
+          { "text": "pela esquerda das faixas de rodagem e o mais próximo possível das bermas ou passeios, mas a uma distância destes que permitas evitar qualquer acidente.", "isCorrect": true }
+        ]
+      },
+      {
+        "id": "13",
+        "text": "Numa auto-estrada, pode-se inverter o sentido de marcha? ",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im13.jpg",
+        "answers": [
+          { "text": "Sempre que possível.", "isCorrect": false },
+          { "text": "Nunca.", "isCorrect": true },
+          { "text": "Sim, se a manobra for feita lentamente.", "isCorrect": false }
+        ]
+      },
+      {
+        "id": "14",
+        "text": "O que indica o sinal?",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im14.jpg",
+        "answers": [
+          { "text": "Paragem proibida a veículos que transportam substâncias perigosas.", "isCorrect": true },
+          { "text": "Paragem obrigatória para veículos que transportam substâncias perigosas.", "isCorrect": false },
+          { "text": "Área reservada para veículos que transportam substâncias perigosas.", "isCorrect": false }
+        ]
+      },
+      {
+        "id": "15",
+        "text": "Que comunica o condutor aos utentes da via?",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im15.jpg",
+        "answers": [
+          { "text": "Que vai voltar para o lado esquerdo do volante.", "isCorrect": false },
+          { "text": "Que vai voltar para o lado direito do volante.", "isCorrect": false },
+          { "text": "Que vai reduzir a velocidade.", "isCorrect": true }
+        ]
+      },
+      {
+        "id": "16",
+        "text": "O que indica o sinal? ",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im16.jpg",
+        "answers": [
+          { "text": "A presença de cancela motorizada ao centro.", "isCorrect": false },
+          { "text": "A presença de ponte móvel.", "isCorrect": true },
+          { "text": "A presença de entroncamento oblíquo a esquerda.", "isCorrect": false }
+        ]
+      },
+      {
+        "id": "17",
+        "text": "O que indica o sinal?",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im17.jpg",
+        "answers": [
+          { "text": "Pré-advertência da direção de saída.", "isCorrect": true },
+          { "text": "Advertência da direção de saída.", "isCorrect": false },
+          { "text": "Direção de saída.", "isCorrect": false }
+        ]
+      },
+      {
+        "id": "18",
+        "text":  "Considera-se morte por acidente de viação:",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im18.jpg",
+        "answers": [
+          { "text": "Aquela que ocorre até 30 dias após o registo do sinistro.", "isCorrect": true },
+          { "text": "Só aquela que ocorre no local do sinistro.", "isCorrect": false },
+          { "text": "Só aquela que ocorre a caminho da unidade sanitária.", "isCorrect": false },
+          { "text": "Aquela que ocorre 30 dias depois do sinistro.", "isCorrect": false }
+        ]
+      },
+      {
+        "id": "19",
+        "text": "Os peões, para atravessar a faixa de rodagem… ",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im19.jpg",
+        "answers": [
+          { "text": "podem faze-lo sem utilizar as passagens para peões, se não existe nenhuma a uma distancia inferior a 10 m.", "isCorrect": false },
+          { "text": "estão sempre obrigados a utilizar a passagem desnivelada para peões.", "isCorrect": false },
+          { "text": "Tem sempre prioridade de passagem.", "isCorrect": false },
+          { "text": "devem certificar-se de que a distância e velocidade dos veículos, permite faze-lo sem perigo de acidente.", "isCorrect": true }
+        ]
+      },
+      {
+        "id": "20",
+        "text": "Nos veículos de mercadorias, a carga deve ser disposta de modo a que:",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im20.jpg",
+        "answers": [
+          { "text": "O principal peso fique sobre o eixo da retaguarda.", "isCorrect": false },
+          { "text": "Fique livre o maior espaço possível à retaguarda da caixa de carga.", "isCorrect": false },
+          { "text": "Seja assegurado o equilíbrio do veículo, parado ou em movimento.", "isCorrect": true }
+        ]
+      },
+      {
+        "id": "21",
+        "text": "O que indica o sinal?",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im21.jpg",
+        "answers": [
+          { "text": "Trânsito proibido a peões, animais e veículos automóveis.", "isCorrect": false },
+          { "text": " Trânsito proibido a peões, animais e veículos não automóveis.", "isCorrect": true },
+          { "text": " Trânsito proibido a animais e veículos não automóveis.", "isCorrect": false }
+        ]
+      },
+      {
+        "id": "22",
+        "text": "É proibido ultrapassar:",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im22.jpg",
+        "answers": [
+          { "text": "Em todas as curvas.", "isCorrect": false },
+          { "text": "Depois dos cruzamentos.", "isCorrect": false },
+          { "text": "Nas estradas que só tenham uma via de trânsito para cada sentido.", "isCorrect": false },
+          { "text": "Imediatamente antes e nas passagens para peões.", "isCorrect": true }
+        ]
+      },
+      {
+        "id": "23",
+        "text": "Os automóveis pesados de passageiros, fora das localidades, não devem exceder a velocidade instantânea de: ",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im23.jpg",
+        "answers": [
+          { "text": "80 km/h.", "isCorrect": false },
+          { "text": "120 km/h.", "isCorrect": false },
+          { "text": "100 km/h.", "isCorrect": true }
+        ]
+      },
+      {
+        "id": "24",
+        "text": "Todos os condutores de veículos ou animais são obrigados a…",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im24.jpg",
+        "answers": [
+          { "text": "abandonar os veículos nos locais de estacionamento sem motivo justificado.", "isCorrect": false },
+          { "text": "reduzir ou suspender intencionalmente a circulação, formando filas de trânsito desnecessário.", "isCorrect": false },
+          { "text": "obedecer ao sinal de paragem feito pelas autoridades com competências para fiscalização do trânsito.", "isCorrect": true }
+        ]
+      },
+      {
+        "id": "25",
+        "text": "O que indica o sinal?",
+        "image": "https://raw.githubusercontent.com/pauloadebe/exame-de-conducao/refs/heads/main/images/im25.jpg",
+        "answers": [
+          { "text": "Sentido obrigatório para frente.", "isCorrect": false },
+          { "text": "Via rápida.", "isCorrect": false },
+          { "text": "Existência de portagem na via em que se segue.", "isCorrect": true }
+        ]
+      }
+      
+  ]
